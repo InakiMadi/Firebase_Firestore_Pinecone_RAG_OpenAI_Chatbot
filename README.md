@@ -117,5 +117,3 @@ Hosting URL: https://fir-openairag.web.app
 User Uploads Doc → Firestore (raw text) → Firebase Function → OpenAI Embeddings → Pinecone (vectors)  
 
 User Asks Question → Pinecone Search → Firestore (get full text) → OpenAI GPT-4 → Response
-
-Firestore -> OpenAI Embeddings -> Pinecone (vector index) -> GPT-4 (generation)
